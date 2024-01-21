@@ -1,0 +1,10 @@
+[16-Oct-2023 11:38:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\Indent\faculty\process_suggested_books.php:17
+Stack trace:
+#0 C:\xampp\htdocs\Indent\faculty\process_suggested_books.php(17): json_decode(Array, true)
+#1 {main}
+  thrown in C:\xampp\htdocs\Indent\faculty\process_suggested_books.php on line 17
+[16-Oct-2023 11:38:57 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\Indent\faculty\process_suggested_books.php:17
+Stack trace:
+#0 C:\xampp\htdocs\Indent\faculty\process_suggested_books.php(17): json_decode(Array, true)
+#1 {main}
+  thrown in C:\xampp\htdocs\Indent\faculty\process_suggested_books.php on line 17
