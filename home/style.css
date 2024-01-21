@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+   font-size: 18px;
+   font-weight:100;
+
+}
+.nav-link:hover{
+    background-color:#d0b200;
+    
+
+}
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+   
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+   font-size: 18px;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size:18px;
+}
+
+.banner-section-bg-container {
+    background-image: url("https://scis.uohyd.ac.in/images/scis-new-building.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+.text{
+    color:black;
+    font-family: "Roboto";
+    font-size:18px;
+    font-weight: 50;
+}
+
+.banner-caption {
+    color: black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.custom-button:hover{
+    background-color:transparent;
+    
+    
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+
+
+.wcu-section-container {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heaiding {
+    color: #183b56;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.wcu-section-heaiding:hover{
+    color:#921163;
+    text-decoration: underline;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.card-image {
+    height: 90px;
+    width: 90px;
+}
+
+.wuc-card-cantainer {
+    text-align: center;
+    padding: 15px;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+}
+
+.card-heading {
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-discreption {
+    color: #5a7184;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.offers {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+
+
+.explore-menu-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.explore-menu-heading:hover{
+    color:#921163;
+    text-decoration: underline; 
+}
+.menu-card-image {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.tittle-menu-card {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+
+
+.healthy-food-section-container {
+    background-color: #f9fbfe;
+    ;
+}
+
+.health-food-section-card-image {
+    width: 270px;
+
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700
+}
+.healthy-food-section-heading:hover{
+    color:#921163;
+    text-decoration: underline;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom, #d0b200, #a58d00);
+}
+
+.payment-option-images {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thaking-customers-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-discription {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-section-button {
+    color: white;
+    background-image: linear-gradient(to bottom, #d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.tanking-section-modal-button-custom {
+    color: #d0b200;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.follow-us-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+}
+.follow-us-heading:hover{
+    color:#921163;
+    text-decoration: underline;
+}
+
+.follow-us-section-icon-container {
+    background-color: #faf7e8;
+    border-width: 0px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 10px;
+
+}
+
+.footer-section-container {
+    background-color: #0d2436;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+
+}
+
+.footer-heading {
+    color: #959ead;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.secreat-disciption {
+    color: skyblue;
+    font-size: 3px;
+    font-family: Roboto;
+}
+
+.birthday-wishes {
+    padding-top: 10px;
+    color: black;
+    font-family: Caveat;
+    font-size: 25px;
+
+
+}
+
+.birthday-wishes2 {
+    padding-top: 10px;
+    color: black;
+    font-family: Monoton;
+    font-size: 25px;
+
+}
+
+.footer-section-order-place-discription {
+    color: #959ead;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}

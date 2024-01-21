@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="new_user.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+            form
+        {
+        height:auto;
+        width:auto;
+        }
+        label
+            {
+            display:inline-block;
+            width:100%;
+            margin-right:1px;
+            text-align:left;
+            padding: 10px 5px 5px 20px;
+            font-weight:bold;
+            }
+
+            body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        }
+
+        #header {
+        /* Header styles */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #003366;
+        color: white;
+        width: auto;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        /* Higher z-index for header */
+        }
+
+        #navigation {
+        /* Navigation styles */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f7f7f7;
+        color: white;
+        width: auto;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        /* Lower z-index for navigation */
+        }
+
+        #section {
+        background-color: #f7f7f7;
+        padding: 10px;
+        width: 100%;
+        /* Adjust as needed */
+        }
+
+        #section form {
+        max-width: 50%;
+        }
+
+        #img_left,
+        #img_right {
+        flex: 0 0 auto;
+        }
+
+        #img_left img,
+        #img_right img {
+        max-width: 100%;
+        height: auto;
+        }
+
+        #title {
+        flex: 1 1 auto;
+        text-align: center;
+        margin: 0;
+        }
+
+        .btn-group1 {
+        display: flex;
+        justify-content: center;
+        }
+
+        .btn-group1 button {
+        background-color: #003366;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 4px;
+        }
+
+        .btn-group1 button:hover {
+        background-color: #6a819c;
+        /*color: rgb(20, 20, 20);*/
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"] {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 12px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+        background-color: #003366;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+        width: 30%;
+        }
+
+        input[type="submit"]:hover {
+        background-color: #002855;
+        }
+
+        .error-message {
+        color: #ff0000;
+        margin-top: 10px;
+        }
+
+        .password-toggle {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        }
+
+        #user-btn.active {
+        background-color: #6a819c;
+        }
+
+        .horizontal-line {
+        border: none;
+        height: 4px;
+        /* Adjust the height as needed */
+        background-color: #003366;
+        /* Change the color as needed */
+        }
+
+        .submenu {
+            display: none;
+            flex-direction: column;
+            position: relative;
+            background-color: #003366;
+        }
+
+        .submenu button {
+            width: 100%;
+        }
+
+        .banner-section-bg-container {
+        background-image: url("https://img.collegepravesh.com/2021/11/SCIS-UOH-Hyderabad.jpg");
+        height: 100vh;
+        background-size: cover;
+
+        .banner-heading {
+        color: #003366;
+        font-family: "Roboto";
+        font-size: 45px;
+        font-weight: 300;
+        }
+        .text{
+            color:#003366;
+            font-family: "Roboto";
+            font-size:18px;
+            font-weight: 50;
+        }
+
+        .banner-caption {
+            color: #003366;
+            font-family: "Roboto";
+            font-size: 24px;
+            font-weight: 300;
+        }
+        }
+</style>
+
+<body>
+    <header>
+        <div id="header" class="btn-group1">
+            <div id="img_left">
+                <img src="../img/uoh_logo_white.png" alt="University of Hyderabad">
+            </div>
+            <div id="title">
+                <h1><b>School of Computer and Information Sciences</b></h1>
+                <h2><b>Library Books / Journals Indenting System</b></h2>            
+            </div>
+            <div id="img_right">
+                <img src="../img/uoh_ioe_white.png" alt="University of Hyderabad">
+            </div>
+        </div>
+    </header>
+    <div id="navigation" align="center" class="btn-group1">
+        <button onclick="window.location.href='../home/index.html'" id="user-btn">Home</button>
+        <button onclick="window.location.href='../manage_users/new_user.html'">Manage Users</button>
+        <button onclick="window.location.href='../manage_books/adding_books.html'">Manage Books</button>
+        <button onclick="window.location.href='../manage_journals/adding_journals.html'">Manage Journals</button>
+        <button onclick="window.location.href='../profile/edit_profile.php'">Edit Profile</button>
+        <button onclick="window.location.href='../approve/approved_book.php'">Approve</button>
+        <button onclick="window.location.href='../admin1.php'">Logout</button>
+</div>
+
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <!--<h1 class="banner-heading mb-3">Welcome to the <br>School of Computer and Information Sciences</h1>-->
+            <marquee width="40%" direction="left" height="45px">
+              <p class="text">Library Books / Journals Indenting System</p>
+                </marquee>
+            
+        </div>
+    </div>
+    <script>
+        // Get the current page URL
+        var currentPage = window.location.href;
+
+        // Check if the current page URL matches the "new_user.html" URL
+        if (currentPage.includes("index.html")) {
+            // Add the "active" class to the button
+            document.getElementById("user-btn").classList.add("active");
+        }
+    </script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
